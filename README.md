@@ -57,11 +57,11 @@ score → highest score by the player of this specific game
 
 **Setup**
 
-Run→ composer install
+Run→ `composer install`
 
-Run→ php artisan migrate
+Run→ `php artisan migrate`
 
-Run→ php db:seed
+Run→ `php db:seed`
 
 **Routes:**
 
@@ -100,3 +100,4 @@ And as for the api results, I added pagination so if we have a large dataset in 
 Future Optimization:
 
 I&#39;ve added indexing on certain fields to make database fetching faster and for making it faster we could use caching techniques like redis and can also use ElasticSearch. I&#39;m using redis and ElasticSearch with kibana and the results are impressive.
+
